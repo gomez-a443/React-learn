@@ -1,17 +1,17 @@
 import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
 
 function App() {
   return (
     <>
-    {/* nav-bar */}
-    <Navbar />
-    <main>
-    {/* Slider */}
-    {/* About */}
-    {/* Sponsors */}
-    {/* Contact */}
-    </main>
-    {/* Footer */}
+      <Navbar />
+      <main>
+        <Slider />
+        {/* About */}
+        {/* Sponsors */}
+        {/* Contact */}
+      </main>
+      {/* Footer */}
     </>
   );
 }
