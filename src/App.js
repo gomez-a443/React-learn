@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import About from "./components/About";
+import Sponsors from "./components/Sponsors";
 
 function App() {
   return (
@@ -9,8 +10,7 @@ function App() {
       <main>
         <Slider />
         <About />
-        {/* Sponsors */}
-        {/* Contact */}
+        <Sponsors />
       </main>
       {/* Footer */}
     </>
