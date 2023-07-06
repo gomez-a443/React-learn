@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
+import About from "./components/About";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Navbar />
       <main>
         <Slider />
-        {/* About */}
+        <About />
         {/* Sponsors */}
         {/* Contact */}
       </main>
