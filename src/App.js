@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import About from "./components/About";
 import Sponsors from "./components/Sponsors";
+import Contacts from "./components/Contacts";
+import Copy from "./components/Copy";
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
         <About />
         <Sponsors />
       </main>
-      {/* Footer */}
+      <Contacts />
+      <Copy />
     </>
   );
 }
